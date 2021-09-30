@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Show</title>
+  </head>
+  <body>
+    <ul>
+      <h1><%= campground.title %></h1>
+      <h1><%= campground.location %></h1>
+    </ul>
+    <footer>
+      <p><a href="/campgrounds/">All campgrounds</a><br /></p>
+      <p>
+        <a href="/campgrounds/<%= campground._id %>/edit">Edit campground</a>
+      </p>
+    </footer>
+  </body>
+</html>
