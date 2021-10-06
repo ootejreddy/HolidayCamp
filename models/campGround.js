@@ -6,14 +6,17 @@ const campGroundSchema = new Schema({
   title: {
     type: String,
   },
-  price: {
+  location: {
+    type: String,
+  },
+  image: {
     type: String,
   },
   description: {
     type: String,
   },
-  location: {
-    type: String,
+  price: {
+    type: Number,
   },
 });
 const Campground = mongoose.model("Campground", campGroundSchema);
